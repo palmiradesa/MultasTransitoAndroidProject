@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0ff68c</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="corLetrasPrincipais">#ffffff</color>
+    <color name="corSecundaria">#ff9710</color>
+    <color name="corEscura">#000</color>
+    <color name="corAlternativa1">#ffff00</color>
+    <color name="corAlternativa2">#fc0f5b</color>
+    <color name="transparente">#00ffffff</color>
+    <color name="preloadColor">#3e74e7</color>
+
+</resources>

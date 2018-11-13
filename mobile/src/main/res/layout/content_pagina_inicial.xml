@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.palmira.multastransito.paginaInicial"
+        tools:showIn="@layout/app_bar_pagina_inicial">
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bannerCard"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="0dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/car2"
+                android:paddingStart="4dp"
+                android:paddingLeft="4dp">
+
+                <TextView
+                    android:id="@+id/textoBanner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginTop="110dp"
+                    android:text="@string/headline"
+                    android:textColor="@color/corLetrasPrincipais"
+                    android:textSize="8pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textoBanner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_below="@id/textoBanner"
+                    android:text="@string/sub_headline"
+
+                    android:textColor="@color/corLetrasPrincipais"
+                    android:textSize="7pt"
+
+                    />
+
+                <Button
+                    android:id="@+id/botaoBanner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+
+
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="163dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/corSecundaria"
+                    android:gravity="right"
+                    android:text="@string/botao_principal"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textSize="7pt"
+                    android:paddingTop="5dp"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/contentCard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+app:cardElevation="0dp"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textoConteudo1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/conteudo_principal"
+                    android:textColor="@color/corEscura"
+                    android:textSize="8pt" />
+
+                <View
+                    android:id="@+id/linhaHorizontal"
+                    android:layout_width="50dp"
+                    android:layout_height="6dp"
+                    android:layout_below="@id/textoConteudo1"
+                    android:background="@color/corSecundaria"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/linhaHorizontal"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="15dp"
+                    android:padding="5dp"
+                    android:text="@string/texto_principal"
+                    android:textColor="@color/corEscura"
+                    android:textSize="7pt" />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/funcionalidade1"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginRight="20dp"
+                    app:cardCornerRadius="45dp"
+                    app:cardElevation="0dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/corAlternativa2">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/multas"
+                            android:layout_alignParentLeft="true" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/funcionalidade2"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    app:cardCornerRadius="45dp"
+                    app:cardElevation="0dp"
+                    android:layout_marginRight="20dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorPrimary">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/dicas" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/funcionalidade3"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    app:cardCornerRadius="45dp"
+                    app:cardElevation="0dp"
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/corSecundaria">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/info"
+                            android:layout_alignParentLeft="true" />
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:gravity="center"
+                    android:text="@string/textoFuncionalidade1"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="@string/textoFuncionalidade2"
+                    android:layout_marginRight="20dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="@string/textoFuncionalidade3" />
+            </TableRow>
+
+
+        </TableLayout>
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:layout_marginTop="20dp" >
+        <RelativeLayout android:layout_height="match_parent" android:layout_width="wrap_content">
+            <TextView
+                android:id="@+id/vantagens"
+                android:text="@string/vantages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:textColor="@color/corEscura" android:textSize="8pt"/>
+
+            <View
+                android:id="@+id/linhaHorizontal2"
+                android:layout_width="50dp"
+                android:layout_height="6dp"
+                android:background="@color/corSecundaria"
+                android:layout_below="@id/vantagens"/>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linhaHorizontal2"
+                android:layout_alignParentStart="true"
+
+                android:layout_alignParentLeft="true">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:text="@string/textoVantagens"
+                        android:textSize="7pt"
+                        android:textColor="@color/corEscura"
+                        android:layout_marginTop="15dp"/>
+
+                    <TextView android:text="" />
+                </TableRow>
+
+
+            </TableLayout>
+        </RelativeLayout>
+        </LinearLayout>>
+    </LinearLayout>
+</ScrollView>

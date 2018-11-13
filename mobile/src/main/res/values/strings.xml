@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Multran</string>
+    <array name="departments">
+        <item>Tecnical</item>
+        <item>Support</item>
+        <item>Research</item>
+        <item>Marketing</item>
+    </array>
+    <string name="title_activity_pagina_inicial">paginaInicial</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nomeSistema">Multran</string>
+    <string name="headline">Controle de multas de transito</string>
+    <string name="sub_headline">Gestao de multas de \ntransito de forma\nsimples.</string>
+    <string name="botao_principal">Ver Multas</string>
+    <string name="conteudo_principal">Bem Vindo</string>
+    <string name="texto_principal">Veja o seu estado como automobilista, fique a par das suas multas de transito
+        e aumenta a credibilidade nos servicos da policia de transito.</string>
+    <string name="textoFuncionalidade1">Multas</string>
+    <string name="textoFuncionalidade2">Dicas</string>
+    <string name="textoFuncionalidade3">Informacao</string>
+    <string name="vantages">Vantagens</string>
+    <string name="textoVantagens">Controle de multas\nAviso de estado\nCusto reduzido\nFacil Interacao</string>
+    <string name="title_activity_login">Iniciar Sessao</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="preload">Carregando...</string>
+    <string name="action_toggle">Menu</string>
+</resources>
