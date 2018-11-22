@@ -4,6 +4,67 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".Login"
+    >
 
+    <TextView
+        android:id="@+id/loginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:text="@string/app_name"
+        android:textColor="@color/corEscura"
+        android:textSize="12pt"
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/cardViewLight"
+        android:layout_below="@+id/loginTitle"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="2dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome de Usuario:\n"
+        android:text="" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="\nPalavra-passe:\n"
+            />
+
+       <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Lembrar sessao?"
+           android:layout_marginTop="20dp"/>
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Esqeceu a palavra-passe?\n" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginTitle"
+            android:background="@color/colorPrimary"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nNao tem uma conta? Cadastre-se.\n"/>
+</LinearLayout>
+    </android.support.v7.widget.CardView>
 </RelativeLayout>
